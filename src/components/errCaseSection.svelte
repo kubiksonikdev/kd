@@ -22,7 +22,7 @@
 </style>
 
 <script lang="ts">
-  import CaseThumbnail from './CaseThumbnail.svelte';
+  import CaseThumbnail from './errCaseThumbnail.svelte';
   import type { CaseSection } from '$lib';
   export let data: CaseSection;
   data.id === 'expired'
